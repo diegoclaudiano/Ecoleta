@@ -1,9 +1,12 @@
 {
   "name": "ecoleta_nlw01",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
